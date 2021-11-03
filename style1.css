@@ -17,16 +17,16 @@ h3 {
   color: white;
   font-family: "Comfortaa", cursive;
   font-size: 1.5rem;
-  margin-bottom: 2.5re
-  m;
+  margin: 1.5rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin: 1rem 0;
   font-family: "Comfortaa", cursive;
   color: #667a52;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 .Iniciar {
+  background-image: url("/assets/flor_registro.png");
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -46,16 +46,13 @@ h2 {
   align-items: center;
 }
 img {
-  width: 45%;
+  width: 65%;
   margin: 1rem;
 }
 form {
-  
   align-items: flex-stasrt;
   width: 80%;
-  
 }
-
 input {
   width: 90%;
   height: 1.4rem;

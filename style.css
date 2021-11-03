@@ -10,14 +10,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 100vh;
   padding-top: 5rem;
   background-color: #667a52;
 }
 h1 {
   margin: 20px 0 0 0;
   color: #667a52;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
   font-family: "Comfortaa", cursive;
@@ -30,12 +29,13 @@ h2 {
   font-family: "Comfortaa", cursive;
 }
 p {
-  font-size: 0.75rem;
-  margin: 8px 30px 45px 30px;
+  font-size: 1rem;
+  margin: 2rem 0 3rem 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 .inicio {
+  background-image: url("/assets/flor_inicio.png");
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -44,14 +44,14 @@ p {
   background-color: #fcf2ea;
 }
 .botones {
-  width: 80%;
-  padding-top: 1rem;
+  width: 70%;
   display: flex;
+  padding-top: 3.5rem;
   justify-content: space-between;
 }
 img {
-  margin: 2px 0 15px 0;
-  width: 60%;
+  margin: 1rem;
+  width: 80%;
 }
 .boton_iniciar {
   display: flex;
