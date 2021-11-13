@@ -1,0 +1,73 @@
+/* Estilos inicio */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,100;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #667a52;
+  background-image: url("/assets/logo_blanco.svg");
+  background-repeat: no-repeat;
+  background-size: 3.7rem;
+  background-position-x: 21.3rem;
+  background-position-y: 0.75rem;
+}
+.navegacion {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #A6BFA4;
+  display: flex;
+}
+.usuario {
+  position: absolute;
+  width: 8rem;
+  left: 35%;
+  top: 10%;
+}
+h1 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 6% 0 0 5%;
+}
+p {
+  font-size: 1rem;
+  padding: 2% 0 0 5%;
+  font-family: "Comfortaa", cursive;
+  color: #ffffff;
+}
+.puntos {
+  padding: 0 0 2% 70%;
+}
+.inicio {
+  background-image: url("/assets/flor_navegacion.png");
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 42.0734px 42.0734px 0px 0px;
+  background-color: #fcf2ea;
+  padding-top: 15%;
+}
+
+.botones_imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 41px;
+  background-color: #7a8db5;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: #ffffff;
+}
