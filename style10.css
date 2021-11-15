@@ -65,7 +65,7 @@ img {
     width:3vh;
 }
 nav {
-  background-image: url("/assets/flor_navegacion.png");
+  background-image: url("/assets/flor_perfil.png");
   height: 69vh;
   background-color: #fcf2ea;
   border-radius: 42.0734px 42.0734px 0px 0px;
@@ -153,6 +153,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   padding: 1vh;
+  list-style: none;
 }
 .empresas img {
   width: auto;

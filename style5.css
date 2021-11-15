@@ -149,6 +149,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   padding: 1vh;
+  list-style: none;
 }
 .empresas img {
   width: auto;
