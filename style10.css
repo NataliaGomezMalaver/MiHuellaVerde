@@ -1,0 +1,171 @@
+/* Estilos perfil */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,100;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #667a52;
+  background-repeat: no-repeat;
+  background-size: 3.7rem;
+  background-position-x: 21.3rem;
+  background-position-y: 0.75rem;
+  font-family: "Comfortaa";
+}
+.Logo {    
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1vh;
+}
+.Logo img {
+  width: 2rem;
+  margin: 0vh 2vh;
+}
+header {
+    font-size: 20px;
+    color:#fcf2ea;
+    margin: 0rem 0.5rem 0rem 2rem;
+}
+header h3 {
+    margin-bottom: 5vh;
+}
+header h4 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 1rem 1rem 1rem;
+}
+.Foto_perfil {
+  z-index: 0.9;
+  position: fixed; 
+  left: 18.5vh;
+  top: 11.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50vh;
+  height: 9vh;
+  width: 9vh;
+}
+.Foto_perfil img { width: 12vh; }
+img {
+  width: 5vh;
+}
+.notificacion {
+    position: fixed;
+    top: 12.5vh;
+}
+.notificacion:hover {
+    background-color: aqua;
+}
+.notificacion img {
+    width:3vh;
+}
+nav {
+  background-image: url("/assets/flor_navegacion.png");
+  height: 69vh;
+  background-color: #fcf2ea;
+  border-radius: 42.0734px 42.0734px 0px 0px;
+  padding: 6vh 0vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+nav h1 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  font-size: 45px;
+  color: #7A8DB5;
+  margin: 5vh 0 2vh 0;
+}
+nav p {
+    width: 34vh;
+    font-size: 1rem;
+    padding: 1vh 0 0 2vh;
+    font-family: "Comfortaa", cursive;
+    font-size: 12px;
+    color: #1E1E1E;
+}
+.inicio {
+  background-image: url("/assets/flor_navegacion.png");
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 42.0734px 42.0734px 0px 0px;
+  background-color: #fcf2ea;
+  padding-top: 15%;
+}
+.botones_imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem 2rem;
+  border-radius: 41px;
+  /* background-color: #7a8db5; */
+  /* width: 13vh; */
+}
+.botones_imagen img {
+    height: 6vh;
+    width: auto;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  color: #ffffff;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.Menu_op {
+  background-color: #fcf2ea;
+}
+.Menu_op ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #A6BFA4;
+  padding-top: 0.5vh;
+  list-style: none;
+}
+.Menu_op img {
+  width: 3vh;
+  height: 3vh;
+  fill:blueviolet;
+}
+.empresas {
+  margin: 1.5vh 0 1vh 0;
+  width: 110%;
+  background-color: rgba(167, 191, 164, 0.25);
+  position: relative;
+  right: 3vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+}
+.empresas img {
+  width: auto;
+  height: 2.5vh;
+}
+.redes { margin: 1vh; }
+.redes{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.redes img {
+  width: 1.5vh;
+  height: 1.5vh;
+  margin-right: 1vh;
+}
