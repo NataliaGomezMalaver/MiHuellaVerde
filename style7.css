@@ -1,0 +1,219 @@
+/* Estilos de mis productos */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,100;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {  
+    font-family: "Comfortaa", regular;
+    background-color: #667a52;
+    overflow: hidden;
+}
+.Logo {    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+.Logo img {
+    width: 2rem;
+    margin: 0vh 2vh;
+}
+header {
+    font-size: 20px;
+    color:#fcf2ea;
+    margin: 0rem 0.5rem 0rem 2rem;
+}
+header h4 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 1rem 1rem 1rem;
+}
+.Foto_perfil {
+    z-index: 0.9;
+    position: fixed; 
+    left: 18.5vh;
+    top: 8.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50vh;
+    height: 9vh;
+    width: 9vh;
+}
+.Foto_perfil img { width: 10vh; }
+.modal{
+    background-color: rgba(0,0,0,.2);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+}
+#modal_op:target{
+    opacity:1;
+    pointer-events:auto;
+}
+.bocadillo {
+    position: fixed;
+    top: 17.5vh;
+    left: 22.3vh;
+    width:0px;
+    height:0px;
+    border-left: 0.5vh solid transparent; /* izquierda flecha */
+    border-right: 0.5vh solid transparent; /* derecha flecha */
+    border-bottom: 1.5vh solid #8294ba; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+}
+.contenido_modal{
+    background-color:#8294ba;
+    width:30%;
+    padding: 2vh;
+    margin: 19vh 13.2vh;
+    box-shadow: 0vh 0.8vh 1.5vh rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+.opciones_perfil{
+    padding: 0vh 2vh;
+    border-right: 0.1vh solid #6b7a9a;
+}
+.opciones_perfil1 { padding: 0vh 2vh; }
+.perfil_boton img {
+    position: fixed;
+    left: 18vh;
+    top: 7.8vh;
+    height: 10vh;
+    width: 10vh;
+}
+nav {
+    background-image: url("/assets/flor_productos.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 67vh;
+    background-color: #fcf2ea;
+    border-radius: 42.0734px 42.0734px 0px 0px;
+    padding: 6vh 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav h2 {
+    color: #243438;
+    font-size: 18px;
+}
+.Buscar {
+    background-color: rgba(166, 191, 164, 0.35);
+    margin: 1vh 6vh;
+    padding: 0.5vh 2vh;
+    border-radius: 5vh;
+    width: 25vh;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+}
+.Buscar img{ width: 2vh; }
+.Filtros ul { display: flex; }
+.Filtros li {
+    border-radius: 50vh;
+    margin: 1vh;
+    padding: 0.5vh 1vh;
+    width: auto;
+    list-style: none;
+    font-size: 12px;
+}
+.muebles { background-color: #7A8DB5; }
+.ropa { background-color: #ADCAAB; }
+.electro { background-color: #F5D2CB; }
+.tecnologia { background-color: #D3B7D0; }
+.literatura { background-color: #e9b58b; }
+.Productos ul {
+    margin-top: 1vh;
+    width: 40vh;
+    height: 60.3vh;
+    overflow: auto;
+    scrollbar-width: none;
+    display: grid;
+    grid-template-columns: repeat(2,0fr);
+    grid-gap: 1vh;
+    justify-content: center;
+}
+.Productos li {
+    background-color: #FCF2EA;
+    width: 13vh;
+    height: 13vh;
+    border-radius: 4vh;
+    border: green 1px solid;
+    padding: 1vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.Productos a { 
+    display: flex;
+    align-items: center;
+}
+.Productos img {
+    width: 9vh;
+}
+.Productos a img {
+    width: 2vh;
+    margin-left: 0.5vh;
+}
+.Descripcion_P {
+    font-size: 12px;
+    margin-bottom: 0.5vh;
+}
+.Productos p {
+    text-decoration: none;
+    font-size: 10px;
+}
+#b_mueble {
+    border:#7A8DB5 2px solid;
+}
+#b_tecnologia {
+    border:#D3B7D0 2px solid;
+}
+#b_literatura {
+    border:#e9b58b 2px solid;
+}
+#b_ropa {
+    border:#ADCAAB 2px solid;
+}
+#mas_productos {
+    background-color: rgba(252, 242, 234, 0.8);
+    border:#F4D1CB 2px solid;
+}
+.Menu_op {
+    background-color: #fcf2ea;
+}
+.Menu_op ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A6BFA4;
+    padding-top: 0.5vh;
+    list-style: none;
+}
+.Menu_op img {
+    width: 3vh;
+    height: 3vh;
+    fill:blueviolet;
+}
+footer { margin: 1vh; }
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer img {
+    width: 1.5vh;
+    height: 1.5vh;
+    margin-right: 1vh;
+}

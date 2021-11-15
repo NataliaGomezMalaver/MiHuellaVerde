@@ -1,0 +1,122 @@
+/* Estilos de mi carrito */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,100;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {  
+    font-family: "Comfortaa", regular;
+    background-color: #667a52;
+    overflow: hidden;
+}
+.Logo {    
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+}
+.Logo img {
+    width: 2rem;
+    margin: 0vh 2vh;
+}
+header {
+    font-size: 20px;
+    color:#fcf2ea;
+    margin: 0rem 0.5rem 0rem 2rem;
+}
+header h4 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 1rem 1rem 1rem;
+}
+nav {
+    background-image: url("/assets/flor_carrito.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 73vh;
+    background-color: #fcf2ea;
+    border-radius: 42.0734px 42.0734px 0px 0px;
+    padding: 3vh 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav h3 {
+    font-size: 40px;
+    color: #7A8DB5;
+}
+nav h2 {
+    font-size: 40px;
+    color: #667A52;
+    margin-bottom: 4vh;
+}
+nav img {
+    width: 22vh;
+    margin: 3vh 0;
+}
+.flecha {
+    position: fixed;
+    width:0px;
+    height:0px;
+    border-bottom: 1.5vh solid transparent;  /* izquierda flecha */
+    border-top: 1.5vh solid transparent; /* derecha flecha */
+    border-left: 2vh solid #667A52; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    right: 2vh;
+    top: 45vh;
+}
+.descripcion_producto {
+    text-align: justify;
+    margin: 0 4vh 2vh 4vh;
+}
+#precio {
+    margin: 0 0 2vh 30vh;
+}
+#vendedor {
+    margin: 0 30vh 1vh 0;
+}
+#info_vendedor {
+    margin: 0 22vh 4vh 0;
+}
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones a {
+    background-color: #8DA681;
+    padding: 1vh 1.5vh;
+    border-radius: 2.5vh;
+    font-size: 20px;
+    color: #FCF2EA;
+    text-decoration: none;
+}
+.Menu_op {
+    background-color: #fcf2ea;
+}
+.Menu_op ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A6BFA4;
+    padding-top: 0.5vh;
+    list-style: none;
+}
+.Menu_op img {
+    width: 3vh;
+    height: 3vh;
+    fill:blueviolet;
+}
+footer { margin: 1vh; }
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer img {
+    width: 1.5vh;
+    height: 1.5vh;
+    margin-right: 1vh;
+}
